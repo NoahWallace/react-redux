@@ -1,8 +1,10 @@
+var path=require("path")
+
 module.exports = {
-	context: __dirname + "/src",
+	context: path.resolve(__dirname + "/src"),
 	entry:"./index",
 	output: {
-		path: __dirname + "/app",
+		path: path.resolve(__dirname + "/app"),
 		filename: "bundle.js"
 
 	}
