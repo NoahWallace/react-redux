@@ -1,0 +1,29 @@
+{
+  "name": "react-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "dependencies": {
+    "react": "^15.3.2"
+  },
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base ./src",
+    "start:build":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoahWallace/react-redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoahWallace/react-redux/issues"
+  },
+  "homepage": "https://github.com/NoahWallace/react-redux#readme"
+}
